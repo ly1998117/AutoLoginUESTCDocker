@@ -13,13 +13,11 @@
 - Docker 镜像已经上传到 Docker Hub，可以直接使用. network参数为网络类型，可选值为 uestc | dx | cmcc (校园网|电信|移动)
 - Debug
 ```angular2html
-docker run -it --rm --name uestc-network-auth --network=host 
--e id=学号 -e passwd=密码 -e network=uestc ly1998117/uestc-login
+docker run -it --rm --name uestc-network-auth --network=host -e id=学号 -e passwd=密码 -e network=uestc ly1998117/uestc-login
 ```
 - 部署
 ```angular2html
-docker run -d --name uestc-network-auth --restart=always --network=host 
--e id=学号 -e passwd=密码 -e network=uestc ly1998117/uestc-login
+docker run -d --name uestc-network-auth --restart=always --network=host -e id=学号 -e passwd=密码 -e network=uestc ly1998117/uestc-login
 ```
 
 ## 感谢
