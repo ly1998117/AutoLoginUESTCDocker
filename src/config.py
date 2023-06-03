@@ -5,9 +5,12 @@ from collections import namedtuple
 
 User = namedtuple('User', ['user_id', 'passwd', 'wechat_openid'])
 
-
 # 登录校园网/寝室宽带的用户账号(学号, 登录教务处的密码, None)
 #  例如： User('202912272625', '123456Abc@#$', None)
+
+os.environ['ID'] = '202022080626'
+os.environ['PASSWD'] = 'zzp209301'
+os.environ['NETWORK'] = 'uestc'
 
 
 class LoginConfig:
