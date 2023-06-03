@@ -1,0 +1,16 @@
+[2023-06-03 12:48:23,261][INFO][always_online.py][always_login][ 35]: [2023-06-03 12:48:23] [iMac] NetWork Monitor StartUp.
+[2023-06-03 12:50:08,135][ERROR][always_online.py][<module>][ 60]: Traceback (most recent call last):
+  File "/Users/liuyang/PyCharm/AutoLoginUESTCDocker/src/always_online.py", line 55, in <module>
+    always_login(**login_options)
+  File "/Users/liuyang/PyCharm/AutoLoginUESTCDocker/src/always_online.py", line 48, in always_login
+    time.sleep(delay)
+KeyboardInterrupt
+
+[2023-06-03 12:50:23,138][INFO][always_online.py][always_login][ 35]: [2023-06-03 12:50:23] [iMac] NetWork Monitor StartUp.
+[2023-06-03 12:50:25,458][ERROR][always_online.py][<module>][ 60]: Traceback (most recent call last):
+  File "/Users/liuyang/PyCharm/AutoLoginUESTCDocker/src/always_online.py", line 55, in <module>
+    always_login(**login_options)
+  File "/Users/liuyang/PyCharm/AutoLoginUESTCDocker/src/always_online.py", line 48, in always_login
+    time.sleep(delay)
+KeyboardInterrupt
+
