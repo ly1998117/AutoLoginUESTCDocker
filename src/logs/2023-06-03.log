@@ -14,3 +14,21 @@ KeyboardInterrupt
     time.sleep(delay)
 KeyboardInterrupt
 
+[2023-06-03 14:05:03,051][INFO][always_online.py][always_login][ 35]: [2023-06-03 14:05:03] [iMac] NetWork Monitor StartUp.
+[2023-06-03 15:08:30,535][ERROR][always_online.py][<module>][ 60]: Traceback (most recent call last):
+  File "/Users/liuyang/PyCharm/AutoLoginUESTCDocker/src/always_online.py", line 55, in <module>
+    always_login(**login_options)
+  File "/Users/liuyang/PyCharm/AutoLoginUESTCDocker/src/always_online.py", line 37, in always_login
+    if not is_connect_internet(test_ip):
+  File "/Users/liuyang/PyCharm/AutoLoginUESTCDocker/src/always_online.py", line 37, in always_login
+    if not is_connect_internet(test_ip):
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 1589, in _pydevd_bundle.pydevd_cython_darwin_310_64.ThreadTracer.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_310_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_darwin_310_64.PyDBFrame.do_wait_suspend
+  File "/Users/liuyang/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-1/231.9011.38/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1160, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "/Users/liuyang/Library/Application Support/JetBrains/Toolbox/apps/PyCharm-P/ch-1/231.9011.38/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1175, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
